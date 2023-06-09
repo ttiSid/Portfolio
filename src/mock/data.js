@@ -2,26 +2,28 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  title: 'Sidney | Full Stack Developer', // e.g: 'Name | Developer'
+  lang: 'pt', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  title: 'Olá, eu sou o',
+  name: 'Sidney 👋🏻',
+  subtitle: 'Sou Desenvolvedor Front-end',
+  cta: 'Saiba mais',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'profile.jpeg',
+  paragraphOne:
+    'Sou desenvolvedor web com experiência em desenvolvimento de aplicações utilizando React, Node.js, JavaScript, HTML5, CSS3, com formação em Análise e Desenvolvimento de Sistemas pela Universidade Paulista.',
+  paragraphTwo:
+    'Tenho por volta de 5 anos de experiência na área de Suporte/Infraestrutura de TI. Nesse tempo, pude desenvolver habilidades importantes para o desenvolvimento de aplicações.',
+  paragraphThree: `"It's not over until i win" - Les Brown`,
+  resume: '', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -90,5 +92,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
