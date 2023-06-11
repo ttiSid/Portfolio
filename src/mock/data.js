@@ -30,10 +30,23 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'around-react.png',
+    title: 'EUA Afora',
+    info: '💼 O projeto funciona como uma rede social, de forma similar ao Instagram, onde é possível: Adicionar/remover posts, incluir/remover curtidas, alterar foto e dados de perfil.',
+    info2:
+      '⚡️ Atuei no desenvolvimento e migração do projeto desde a marcação com HTML, até a entrega com o React.',
+    info3:
+      '💻 Foram utilizadas as seguintes tecnologias: HTML, CSS, JavaScript, Git, React e consumo de API',
+    url: 'https://ttisid.github.io/around-react_ptbr/',
+    repo: 'https://github.com/ttiSid/around-react_ptbr', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'De-patria-para-patria.png',
+    title: 'De Pátria para Pátria',
+    info: '💼 O projeto é uma landing page responsiva que apresenta diferentes locais capturados por artistas através de fotografias e descrição.',
+    info2:
+      ' Foram utilizadas as seguintes tecnologias: HTML, CSS responsivo, git, metodologia BEM.',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -41,16 +54,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
+    info: '💼 ',
     info2: '',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
