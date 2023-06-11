@@ -1,6 +1,6 @@
 ## Authors
 
-This project has been created by:
+This template has been created by:
 
 - **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
