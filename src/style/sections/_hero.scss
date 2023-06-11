@@ -19,6 +19,22 @@
     padding: 0rem $default-font-size;
   }
 
+  .hero-wrap{
+    display: flex;
+
+    @include respond(tab-port){
+    justify-content: center;
+    }
+
+    .black-icon{
+      color: black;
+    }
+
+    .black-icon:hover{
+      opacity: 40%;
+    }
+  }
+
   .hero-title {
     font-size: 5.6rem;
     font-weight: 700;
@@ -43,6 +59,8 @@
 
   .hero-cta {
     display: flex;
+    margin: 0;
+    align-items:center;
 
     @include respond(tab-port) {
       justify-content: center;

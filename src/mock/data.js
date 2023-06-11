@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Sidney | Full Stack Developer', // e.g: 'Name | Developer'
+  title: 'Sidney | Full-stack Web Developer', // e.g: 'Name | Developer'
   lang: 'pt', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -47,25 +47,25 @@ export const projectsData = [
     info: '💼 O projeto é uma landing page responsiva que apresenta diferentes locais capturados por artistas através de fotografias e descrição.',
     info2:
       ' Foram utilizadas as seguintes tecnologias: HTML, CSS responsivo, git, metodologia BEM.',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://ttisid.github.io/web_project_3_ptbr/',
+    repo: 'https://github.com/ttiSid/web_project_3_ptbr', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '💼 ',
+    img: '⚙️',
+    title: 'ToDo App (Em progresso)',
+    info: '⏳',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    url: 'https://github.com/ttiSid',
+    repo: '', // if no repo, the button will not show up
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Gostaria de saber mais sobre mim? Clique no botão abaixo!',
+  btn: 'Enviar e-mail',
+  email: 's02devmail@protonmail.com',
 };
 
 // FOOTER DATA
@@ -73,23 +73,13 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/sidney-sudatti-8231401b8/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/ttiSid',
     },
   ],
 };
