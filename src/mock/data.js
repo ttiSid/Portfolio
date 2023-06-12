@@ -3,8 +3,8 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Sidney | Full-stack Web Developer', // e.g: 'Name | Developer'
-  lang: 'pt', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  lang: 'pt-BR', // e.g: en, es, fr, jp
+  description: 'Bem-vindo ao meu portfolio', // e.g: Welcome to my website
 };
 
 // HERO DATA

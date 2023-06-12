@@ -19,7 +19,7 @@ module.exports = {
         path: `${__dirname}/src/pages/`,
       },
     },
-    {
+    /* {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Gatsby Simplefolio`,
@@ -30,6 +30,6 @@ module.exports = {
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },
-    },
+    }, */
   ],
 };
